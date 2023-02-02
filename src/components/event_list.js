@@ -39,6 +39,7 @@ class Events extends Component {
 			})
 			.then(function () {
 				// always executed
+				console.log("e list line 42");
 			});
 	}
 
@@ -76,7 +77,7 @@ class Events extends Component {
 												</ThemeProvider>
 											</div>
 											<div className="cardDetail">
-												<h4>{event.name}</h4>
+												<h4>{"youuuu"}</h4>
 												<p>{event.issueText}</p>
 											</div>
 										</NavLink>
