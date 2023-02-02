@@ -64,10 +64,10 @@ class Events extends Component {
 											to={{
 												pathname: "/form",
 												state: {
-													text: {event.message},
-													head: {event.name},
-													message: {event.issueText},
-													jurisdiction: {event.jurisdiction},
+													text: `${event.message}`,
+													head: `${event.name}`,
+													message: `${event.issueText}`,
+													jurisdiction: `${event.jurisdiction}`
 												},
 											}}
 											style={{textDecoration: "none", color: "inherit"}}>
