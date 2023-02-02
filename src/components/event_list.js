@@ -61,10 +61,10 @@ class Events extends Component {
 											to={{
 												pathname: "/form",
 												state: {
-													text: `${event.message}`,
-													head: `${event.name}`,
-													message: `${event.issueText}`,
-													jurisdiction: `${event.jurisdiction}`,
+													text: {event.message},
+													head: {event.name},
+													message: {event.issueText},
+													jurisdiction: {event.jurisdiction},
 												},
 											}}
 											style={{textDecoration: "none", color: "inherit"}}>
@@ -74,8 +74,8 @@ class Events extends Component {
 												</ThemeProvider>
 											</div>
 											<div className="cardDetail">
-												<h4>{event.event_name}</h4>
-												<p>{event.event_description}</p>
+												<h4>{event.name}</h4>
+												<p>{event.issueText}</p>
 											</div>
 										</NavLink>
 									</div>
