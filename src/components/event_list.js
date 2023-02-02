@@ -26,7 +26,7 @@ class Events extends Component {
 		axios
 			.get(process.env.REACT_APP_EVENTS)
 			.then((response) => {
-			console.log("have response!");
+			console.log("have response in event_list.js!");
 			console.log(response.data).
 				// handle success
 				this.setState({
