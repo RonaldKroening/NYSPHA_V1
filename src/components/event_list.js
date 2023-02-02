@@ -55,7 +55,7 @@ class Events extends Component {
 								<Fragment>
 									<div className="cardEvent">
 										<div className="cardImage">
-											<img src={event.event_photo} alt="Avatar" />
+											<img src={event.imageURL} alt="Avatar" />
 										</div>
 										<NavLink
 											to={{
