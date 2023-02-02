@@ -16,7 +16,7 @@ const theme = createMuiTheme({
         },
     },
 });
-
+console.log("hello from elist");
 class Events extends Component {
 	state = {
 		events: [],
