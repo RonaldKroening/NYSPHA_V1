@@ -120,6 +120,7 @@ class Form extends Component {
 	};
 
 	render() {
+		console.log("finished in form!");
 		return (
 			<Fragment>
 				{this.state.redirect === false ? (

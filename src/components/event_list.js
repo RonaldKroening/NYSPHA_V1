@@ -44,6 +44,7 @@ class Events extends Component {
 	}
 
 	render() {
+		console.log("hello from elist 2");
 		return (
 			<Fragment>
 				<div className="container">

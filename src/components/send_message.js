@@ -117,7 +117,7 @@ class Send extends Component {
 														toAddress : representative.email,
 														fromAddress : this.state.formValue.email,
 														subject : "",
-														emailBody : "This is a test body" + "\nSincerely,\n"+this.state.formValue.firstName+" "+this.state.formValue.lastName
+														emailBody : "This is a test body"
 													},
 													messageDetails : this.state.messageDetails,
 												},
