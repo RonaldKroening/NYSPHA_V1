@@ -49,6 +49,7 @@ class Entries extends Component {
 			.get("http://localhost:3001/user_message")
 			.then((response) => {
 				// handle success
+				console.log("in entries.js! here's response");
 				console.log(response.data);
 				this.setState({
 					entries: response.data,
